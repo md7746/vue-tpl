@@ -2,6 +2,7 @@
   <section>
     <i class="fa fa-circle" ref='ff'></i>
     {{ msg }}
+    <mt-search></mt-search>
   </section>
 </template>
 
@@ -34,7 +35,4 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang='less' scoped>
 @r:50rem;
-section{
-  font-size: 40/@r;
-}
 </style>

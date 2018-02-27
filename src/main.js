@@ -7,6 +7,10 @@ import router from './router'
 import 'font-awesome/css/font-awesome.css'
 import '@/assets/css/base.css'
 
+//mint-ui
+import { Search } from 'mint-ui';
+Vue.component(Search.name, Search);
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
